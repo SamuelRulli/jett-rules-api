@@ -1,0 +1,21 @@
+[
+  {
+    "name": "LOG INIT",
+    "description": "LOG INIT.",
+    "priority": 1,
+    "condition": "true",
+    "actions": [
+      "commons.log.info(\"stage=jett_init request={}\", reservation);"
+    ]
+  },
+  {
+    "name": "Ranking",
+    "description": "check instructors ranking.",
+    "priority": 1,
+    "condition": "reservation.getData().get(0).getName().compareTo('Samuel') < 0",
+    "actions": [
+      "commons.result = 1",
+      "commons.log.info(\"stage=ranking method=Ranking={}\", commons.result);"
+    ]
+  }
+]
