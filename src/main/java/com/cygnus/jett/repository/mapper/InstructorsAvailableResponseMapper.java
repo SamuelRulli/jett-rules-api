@@ -1,4 +1,4 @@
-package com.cygnus.jett.mapper;
+package com.cygnus.jett.repository.mapper;
 
 import com.cygnus.jett.controller.response.InstructorsAvailableResponse;
 import com.cygnus.jett.integration.resources.InstructorsJettBookingResponse;
@@ -11,11 +11,11 @@ import java.util.List;
 @Mapper
 public interface InstructorsAvailableResponseMapper {
 
-    public static final InstructorsAvailableResponseMapper INSTANCE = Mappers.getMapper(InstructorsAvailableResponseMapper.class);
+    InstructorsAvailableResponseMapper INSTANCE = Mappers.getMapper(InstructorsAvailableResponseMapper.class);
 
     default List<InstructorsAvailableResponse> toInstructorsAvailableResponse(final InstructorsJettBookingResponse request){
 
-        List<InstructorsAvailableResponse> listInstructors = new ArrayList<InstructorsAvailableResponse>();
+        List<InstructorsAvailableResponse> listInstructors = new ArrayList<>();
 
         int count = 0;
 
