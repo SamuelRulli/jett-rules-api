@@ -1,23 +1,31 @@
-#  jett-rules-api Spring Boot API #
+# **jett-rules-api Spring Boot API**  
 
-## Tecnologias utilizadas
+## **Project Objective**  
 
-### Execução:
-* [Java 17](https://www.oracle.com/java/technologies/javase/11-0-11-relnotes.html)
-* [Spring Boot](https://spring.io/blog/2021/08/19/spring-boot-2-4-10-is-now-available)
-* [Lombok](https://projectlombok.org)
-* [Maven](https://maven.apache.org/)
+The goal of this project is to **implement and execute business rules** using the **Easy Rules framework**. It provides a structured way to define, manage, and execute rules efficiently within a Spring Boot application.  
 
 ---
 
-## Começando
+## **Technologies Used**  
 
-Para executar o projeto é necessário a instalação do JDK 11. Faça o download em [Oracle JDK 11](https://www.oracle.com/java/technologies/downloads/#java11)
+### **Execution:**  
+- [Java 17](https://www.oracle.com/java/technologies/javase/11-0-11-relnotes.html)  
+- [Spring Boot](https://spring.io/blog/2021/08/19/spring-boot-2-4-10-is-now-available)  
+- [Lombok](https://projectlombok.org)  
+- [Maven](https://maven.apache.org/)  
+- [Easy Rules](https://github.com/j-easy/easy-rules)  
 
-Após o download será necessário configurar as variáveis **JAVA_HOME** e **PATH** apropriadamente.
+---
 
-### Documentação
+## **Getting Started**  
 
-Essa aplicação foi documentada utilizando o **OpenAPI Specification** com [ swagger](https://swagger.io/). 
+To run the project, you need to install **JDK 11**. Download it from [Oracle JDK 11](https://www.oracle.com/java/technologies/downloads/#java11).  
 
-Para visualizar a documentação, após a execução da aplicação acesse a seguinte URL: [http://host:port/swagger-ui.html]
+After downloading, you will need to configure the **JAVA_HOME** and **PATH** environment variables properly.  
+
+### **Documentation**  
+
+This application has been documented using the **OpenAPI Specification** with [Swagger](https://swagger.io/).  
+
+To view the documentation, after running the application, access the following URL:  
+
